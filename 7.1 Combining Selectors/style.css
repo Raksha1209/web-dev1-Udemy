@@ -1,0 +1,30 @@
+/* Write your code here:
+1.GROUP RULE
+2.RIGHT ANGLE DIRECTCHILD RULE
+3.DESCENDENT RULE
+4.CHAINING RULE */
+h1,h2{
+    color: blueviolet;
+}
+
+.box>.done{
+    color: firebrick;
+} 
+
+/* you can also do this
+
+.box>p{
+    color:firebrick;
+*/
+
+.box li{
+    color: blue;
+}
+  
+li.done{
+    color: seagreen;
+}
+
+ul p.done{
+    font-size: 0.5rem;
+}
